@@ -1,0 +1,1 @@
+Hàm swap_pointers không hoạt động như mong muốn vì tham số của hàm chỉ là con trỏ đơn (char*) chứ không phải con trỏ tới con trỏ (char**). Khi truyền s1 và s2 vào hàm, chúng được truyền theo giá trị (tức là một bản sao của con trỏ được tạo ra trong hàm swap_pointers)
